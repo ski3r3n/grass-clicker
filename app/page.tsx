@@ -38,7 +38,7 @@ export default function Home() {
         src="/background.png"
         layout="fill"
         objectFit="cover"
-        className="absolute z-[-4] opacity-80 w-full h-full"
+        className="absolute z-[-4] opacity-80 w-full h-full overflow-hidden"
       />
       <div className="h-screen p-3">
         <Header amount={amount} perSecond={perSecond} />
